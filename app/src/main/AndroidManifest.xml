@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nan.h_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingApp"
+            android:label="setting" />
+        <activity android:name=".SettingListType" />
+        <activity android:name=".SettingSpinType" />
+        <activity android:name=".SettingSpinnerAdd" />
+        <activity android:name=".SettingSpinnerEdit" />
+        <activity android:name=".ActivityWallet" />
+        <activity android:name=".WalletSub" />
+        <activity android:name=".ShowWallet" />
+        <activity android:name=".SetNotification" />
+
+        <service
+            android:name=".NotificationService"
+            android:enabled="true"
+            android:exported="true">
+
+        </service>
+        <service android:name=".ServiceNoti"
+            android:exported="false"/>
+    </application>
+
+</manifest>

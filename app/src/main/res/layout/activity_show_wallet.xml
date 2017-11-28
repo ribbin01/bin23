@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nan.h_app.ShowWallet">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_show_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:gravity="center"
+                android:text="ListView : "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:background="#CCCCCC" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/lv_subwallet_show"
+
+                android:layout_width="332dp"
+                android:layout_height="476dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_height="1dip"
+            android:background="#CCCCCC" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/tv_show_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By.. ThaiCreate.Com" />
+        </LinearLayout>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

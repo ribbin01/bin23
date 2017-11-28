@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TEST-App</string>
+    <string name="btn_main_setting">ตั้งค่า</string>
+    <string name="tv_setting_spin">หมวดหมู่</string>
+    <string name="button">ss</string>
+    <string name="textview">ชื่อ</string>
+    <string name="del">ลบ</string>>
+    <string name="edit">แก้ไช</string>
+    <string name="textviewsub">Name</string>
+    <string name="add">เพิ่ม</string>
+</resources>
